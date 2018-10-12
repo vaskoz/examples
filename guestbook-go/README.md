@@ -253,12 +253,12 @@ After you're done playing with the guestbook, you can cleanup by deleting the gu
 Delete all the resources by running the following `kubectl delete -f` *`filename`* command:
 
 ```console
-$ kubectl delete -f examples/guestbook-go
-guestbook-controller
-guestbook
-redid-master-controller
-redis-master
-redis-slave-controller
+$ kubectl delete -f examples/guestbook-go \
+guestbook-controller \
+guestbook \
+redid-master-controller \
+redis-master \
+redis-slave-controller \
 redis-slave
 ```
 
